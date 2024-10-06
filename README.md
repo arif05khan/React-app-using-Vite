@@ -79,35 +79,8 @@ In the root folder, run:
 npm run dev
 The app will run at http://localhost:3000.
 
-Project Structure
-plaintext
-Login-SignUp-Form-using-React-Vite-main/
-│
-├── backend/
-│   ├── models/
-│   │   └── User.js      # Mongoose schema for User
-│   ├── routes/
-│   │   └── auth.js      # Authentication routes (Signup, Login)
-│   ├── db.js            # MongoDB connection using Mongoose
-│   ├── index.js         # Main server file (Express setup)
-│   ├── .env             # Environment variables
-│   └── package.json     # Backend dependencies
-│
-├── public/
-│   └── index.html       # Base HTML file
-│
-├── src/
-│   ├── Components/
-│   │   └── LoginSignUp/
-│   │       ├── Login.js           # Login component
-│   │       ├── LoginSignUp.css    # Styling for the login/signup page
-│   │       └── LoginSignUp.jsx    # Main login/signup form component
-│   ├── App.js            # Main React App file
-│   ├── index.js          # ReactDOM rendering
-│   ├── Welcome.js        # Welcome page after login
-│   └── package.json      # Frontend dependencies
-└── README.md             # Project documentation
 
+Project documentation
 Environment Variables
 In the backend/.env file, define the following variables:
 
